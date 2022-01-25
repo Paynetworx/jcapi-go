@@ -44,7 +44,7 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -85,7 +85,7 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
  **body** | [**Sshkeypost**](Sshkeypost.md)|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -168,7 +168,7 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -209,9 +209,9 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **fields** | **string**| Use a space seperated string of field parameters to include the data in the response. If omitted, the default list of fields will be returned.  | [default to ]
+ **fields** | **string**| Use a space seperated string of field parameters to include the data in the response. If omitted, the default list of fields will be returned.  | 
  **filter** | **string**| A filter to apply to the query. | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -252,9 +252,9 @@ Name | Type | Description  | Notes
  **accept** | **string**|  | [default to application/json]
  **limit** | **int32**| The number of records to return at once. | [default to 10]
  **skip** | **int32**| The offset into the records to return. | [default to 0]
- **sort** | **string**| The comma separated fields used to sort the collection. Default sort is ascending, prefix with &#x60;-&#x60; to sort descending.  | [default to ]
- **fields** | **string**| The comma separated fields included in the returned records. If omitted the default list of fields will be returned.  | [default to ]
- **xOrgId** | **string**|  | [default to ]
+ **sort** | **string**| The comma separated fields used to sort the collection. Default sort is ascending, prefix with &#x60;-&#x60; to sort descending.  | 
+ **fields** | **string**| The comma separated fields included in the returned records. If omitted the default list of fields will be returned.  | 
+ **xOrgId** | **string**|  | 
  **search** | **string**| A nested object containing a string &#x60;searchTerm&#x60; and a list of &#x60;fields&#x60; to search on. | 
  **filter** | **string**| A filter to apply to the query. | 
 
@@ -296,7 +296,7 @@ Name | Type | Description  | Notes
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
  **body** | [**Systemuserputpost**](Systemuserputpost.md)|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -338,7 +338,7 @@ Name | Type | Description  | Notes
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
  **body** | [**Systemuserput**](Systemuserput.md)|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -380,7 +380,7 @@ Name | Type | Description  | Notes
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
  **body** | [**Body1**](Body1.md)|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -421,12 +421,12 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **fields** | **string**| Use a space seperated string of field parameters to include the data in the response. If omitted, the default list of fields will be returned.  | [default to ]
+ **fields** | **string**| Use a space seperated string of field parameters to include the data in the response. If omitted, the default list of fields will be returned.  | 
  **limit** | **int32**| The number of records to return at once. Limited to 100. | [default to 10]
  **skip** | **int32**| The offset into the records to return. | [default to 0]
- **sort** | **string**| Use space separated sort parameters to sort the collection. Default sort is ascending. Prefix with &#x60;-&#x60; to sort descending.  | [default to ]
+ **sort** | **string**| Use space separated sort parameters to sort the collection. Default sort is ascending. Prefix with &#x60;-&#x60; to sort descending.  | 
  **filter** | **string**| A filter to apply to the query. | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -468,7 +468,7 @@ Name | Type | Description  | Notes
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
  **body** | [**Usersystembindingsput**](Usersystembindingsput.md)|  | 
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
@@ -509,7 +509,7 @@ Name | Type | Description  | Notes
  **id** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 

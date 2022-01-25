@@ -3207,6 +3207,8 @@ definitions:
         type: "string"
       beta:
         type: "boolean"
+      active:
+        type: "boolean"
       config:
         $ref: "#/definitions/application_config"
       displayLabel:

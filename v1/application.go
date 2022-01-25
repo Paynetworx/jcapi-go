@@ -15,6 +15,8 @@ type Application struct {
 
 	Beta bool `json:"beta,omitempty"`
 
+	Active bool `json:"active,omitempty"`
+
 	Config *ApplicationConfig `json:"config,omitempty"`
 
 	DisplayLabel string `json:"displayLabel,omitempty"`

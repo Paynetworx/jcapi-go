@@ -31,7 +31,7 @@ Name | Type | Description  | Notes
  **triggername** | **string**|  | 
  **contentType** | **string**|  | [default to application/json]
  **accept** | **string**|  | [default to application/json]
- **xOrgId** | **string**|  | [default to ]
+ **xOrgId** | **string**|  | 
 
 ### Return type
 
